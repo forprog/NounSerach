@@ -6,6 +6,6 @@ public class DoWordExtraction {
 
 	public static void main(String[] args) throws IOException {
 		WordsByLengthExtractor wordExtractor = new WordsByLengthExtractor();
-		wordExtractor.extractWordsFromFile("russian_nouns.txt", "needed_nouns.txt", true, 5);
+		wordExtractor.extractWordsFromFile("russian_nouns.txt", "needed_nouns.txt", false, 5);
 	}
 }
